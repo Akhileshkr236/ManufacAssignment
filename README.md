@@ -29,8 +29,10 @@ Your app is ready to be deployed!
 
 ### `Flavanoids Mean Median and mode output`
 
-![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/684fa4ab-4cfb-4c03-91d2-3f65c265b254)
+![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/8a70b786-4d3a-4dbe-ae0a-7999c401edd4)
+
 
 ### `Gamma Mean Median and mode output`
 
-![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/ce603f10-bc56-4edf-97f7-b44e235e3ff5)
+![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/2a901149-137a-4383-9ee0-82f78ea69a58)
+
