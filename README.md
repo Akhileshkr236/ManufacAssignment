@@ -28,9 +28,9 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 ### `Flavanoids Mean Median and mode output`
+
 ![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/684fa4ab-4cfb-4c03-91d2-3f65c265b254)
 
-
 ### `Gamma Mean Median and mode output`
-![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/ce603f10-bc56-4edf-97f7-b44e235e3ff5)
 
+![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/ce603f10-bc56-4edf-97f7-b44e235e3ff5)
