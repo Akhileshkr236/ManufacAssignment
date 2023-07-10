@@ -10,6 +10,7 @@ function transformData(arr) {
     // adding calculated gamma to dataset
     let gamma = (arr[i].Ash * arr[i].Hue) / arr[i].Magnesium;
     arr[i].Gamma = getDecimalValues(gamma, 3);
+    arr[i].Flavanoids = parseFloat(arr[i].Flavanoids);
 
     // Grouping the dataset acording to the needed key
     let key = arr[i].Alcohol;

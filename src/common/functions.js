@@ -1,6 +1,6 @@
 // Function to convert values to 3 decimal place.
 export function getDecimalValues(value, places) {
-  return value.toFixed(places);
+  return Math.round(value * 1000) / 1000;
 }
 
 // Mean Calculate function
@@ -16,20 +16,15 @@ export function calculateMean(arr, key) {
 // Median Calculate function
 export function calculateMedian(arr, key) {
   let filteredValues = arr.map((item) => item[key]);
-  // console.log(filteredValues);
-  var median = 0,
-    numsLen = arr.length;
-  filteredValues.sort();
+  const middle = (filteredValues.length + 1) / 2;
 
-  if (numsLen % 2 === 0) {
-    // average of two middle numbers
-    median = ([numsLen / 2 - 1] + filteredValues[numsLen / 2]) / 2;
-  } else {
-    // if odd middle number only
-    median = filteredValues[(numsLen - 1) / 2];
-  }
+  // Avoid mutating when sorting
+  const sorted = [...filteredValues].sort((a, b) => a - b);
+  const isEven = sorted.length % 2 === 0;
 
-  return getDecimalValues(parseFloat(median), 3);
+  return isEven
+    ? (sorted[middle - 1.5] + sorted[middle - 0.5]) / 2
+    : sorted[middle - 1];
 }
 
 // Mode Calculate function
