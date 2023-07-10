@@ -5,6 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `yarn`
+
+It will install all the required libraries and dependencies.
+
 
 ### `yarn start`
 
@@ -29,10 +33,12 @@ Your app is ready to be deployed!
 
 ### `Flavanoids Mean Median and mode output`
 
-![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/8a70b786-4d3a-4dbe-ae0a-7999c401edd4)
+![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/777b8947-8ba3-454c-94bc-533408fd088f)
+
 
 
 ### `Gamma Mean Median and mode output`
 
-![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/2a901149-137a-4383-9ee0-82f78ea69a58)
+![image](https://github.com/Akhileshkr236/ManufacAssignment/assets/15911795/14c57bba-2322-4af5-8aec-c3631976635c)
+
 
